@@ -1,0 +1,85 @@
+.certificates-slider {
+    margin:15px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+}
+
+.bordered-title {
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 20px;
+    position: relative;
+    clear: both;
+}
+  
+.bordered-title-inner {
+    color: #35373B;
+    font-family: 'lato-bold';
+    font-size: 24px;
+}
+
+.title-border {
+    border-bottom: 2px solid #59748a;
+    position: absolute;
+    bottom: -2px;
+    width: 205px;
+}
+
+.certificates-container {
+    overflow: hidden;
+    position: relative;
+    width: 1170px;
+    height: 185px;
+    margin: 0 auto 0 auto;
+}
+
+.certificates-container > * {
+    position: absolute; 
+    right: -234px; 
+    width: 234px;
+    animation: 20s autoplay2 infinite ease-in;
+}
+
+.link-to-about {text-align: right;}
+
+.link-to-about a {
+    color: #59749A;
+    font-size: 16px;
+}
+      
+@keyframes autoplay2 {
+    0% {right: -234px}
+    14.3% {right: 0px}
+    28.6% {right: 20%}
+    42.9% {right: 40%}
+    57.2% {right: 60%}
+    71.5% {right: 80%}
+    85.8% {right: 100%}
+    100% {right: 120%} 
+}
+    
+/* .certificates-container > *:nth-child(1) {animation-delay: 1s} */
+.certificates-container > *:nth-child(2) {animation-delay: 2.84s}
+.certificates-container > *:nth-child(3) {animation-delay: 5.68s}
+.certificates-container > *:nth-child(4) {animation-delay: 8.52s}
+.certificates-container > *:nth-child(5) {animation-delay: 11.36s}
+
+.certificates-container > *:nth-child(6) {animation-delay: 14.2s}
+.certificates-container > *:nth-child(7) {animation-delay: 17.04s}
+/* .certificates-container > *:nth-child(8) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(9) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(10) {animation-delay: 12.36s}
+
+.certificates-container > *:nth-child(11) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(12) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(13) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(14) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(15) {animation-delay: 12.36s}
+
+.certificates-container > *:nth-child(16) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(17) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(18) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(19) {animation-delay: 12.36s}
+.certificates-container > *:nth-child(20) {animation-delay: 12.36s} */
+    
+

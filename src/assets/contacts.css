@@ -1,0 +1,123 @@
+.map-block {
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.location-info{
+    width: 292.5px;
+}
+
+.map-block .location-info .info .map {
+    background: url(@/assets/images/cmap.png) left center no-repeat;
+}
+
+.map-block .location-info .info .skype {
+    background: url(@/assets/images/cskype.png) left center no-repeat;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-9 {
+        width: 75%;
+    }
+}	
+
+.map-block .location-info .title {
+    font-size: 20px;
+    font-family: 'lato-reg';
+    color: #35373B;
+    margin-bottom: 20px;
+}
+
+.map-block .location-info .info a {
+    font-family: 'lato-light';
+    font-size: 14px;
+    padding-left: 30px;
+    display: block;
+    min-height: 22px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+    width: 1170px;
+}
+
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    /* -webkit-appearance: button; */
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.contact-form .form-description {
+    margin-bottom: 30px;
+    font-family: 'lato-reg';
+    font-size: 16px;
+    color: #59748A;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group input.form-input, .contact-form .form-group textarea.form-input {
+    border: 0;
+    border-bottom: 1px solid #ACB9C4;
+    width: 100%;
+    padding: 7px 15px;
+    outline: none;
+    font-family: 'lato-light';
+    font-size: 14px;
+    color: #35373B;
+    border-radius: 0;
+}
+
+.contact-form .form-group textarea {
+    min-height: 210px;
+}
+
+textarea {
+    overflow: auto;
+}
+
+
+.no-padding {
+    padding: 0;
+}
+@media (min-width: 1200px) {
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+
+.blue-button {
+    background: #59748a;
+    color: #fff;
+    border: 1px solid #465866;
+    border-radius: 2px;
+    font-family: 'lato-reg';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 40px 8px;
+}
+.pull-right {
+    margin-left: auto;
+}
